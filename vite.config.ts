@@ -4,5 +4,6 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: 'https://hinoha.github.io/wnrs/',
   plugins: [react(), vanillaExtractPlugin()],
 });
