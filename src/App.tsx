@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import React from "react";
 
-import { finalLevel, levelOne, levelThree, levelTwo } from "./assets/levels";
+import { finalLevel, levelOne, levelPairs, levelThree, levelTwo } from "./assets/levels";
 import Card from "./components/card/Card";
 import { bigCardStyles } from "./components/card/Card.css";
 import Credits from "./components/credits/Credits";
@@ -42,6 +42,7 @@ function App() {
     levelOne: shuffle(levelOne),
     levelTwo: shuffle(levelTwo),
     levelThree: shuffle(levelThree),
+    pairLevel: shuffle(levelPairs),
     finalLevel: finalLevel
   };
 
@@ -61,7 +62,7 @@ function App() {
       setCurrCard(gameState[newLevel][0]);
     }
   }
-  
+
   const buttons = (Object.keys(levels) as levelKey[]).map((level) => (
     <button
       className={clsx(levelButtonStyles, { [selectedLevelStyles]: level === currLevel })}
@@ -71,7 +72,7 @@ function App() {
       {level.split(/(?=[A-Z])/).join(" ")}
     </button>
   ));
-  
+
   function handleNextCard() {
     const finalMessage = "You have finished this level!";
     if (gameState[currLevel].length === 1) {
@@ -93,7 +94,7 @@ function App() {
       setCurrCard(gameState[currLevel][0]);
     }
   }
-  
+
 
   const [numCardsPerLevel, setNumCardsPerLevel] = React.useState<number>(1);
   function handleLevelsChange(newLevels: number) {
@@ -105,12 +106,13 @@ function App() {
 
     // Shuffle and update the cards for each level
     const updatedLevels = {
-      levelOne: shuffle(levelOne).slice(0, newLevels), 
+      levelOne: shuffle(levelOne).slice(0, newLevels),
       levelTwo: shuffle(levelTwo).slice(0, newLevels),
       levelThree: shuffle(levelThree).slice(0, newLevels),
+      pairLevel:shuffle(levelPairs).slice(0, newLevels),
       finalLevel: finalLevel
     };
-    console.log("updatedLevels",updatedLevels)
+    console.log("updatedLevels", updatedLevels)
 
     // Update the game state with the new levels
     setGameState(updatedLevels);
@@ -124,10 +126,10 @@ function App() {
   return (
     <div className={appStyles}>
       <Credits />
-      <div className={levelsStyles}>{buttons}</div>
       <div className={questionStyles}>
         <div className={titleStyles}>wnrs</div>
-        <Settings onLevelsChange={handleLevelsChange}/>
+        <Settings onLevelsChange={handleLevelsChange} />
+        <div className={levelsStyles}>{buttons}</div>
         <Card styleName={bigCardStyles} question={currCard} />
         <button className={nextCardButtonStlyes} onClick={() => handleNextCard()}>
           next card

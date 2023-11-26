@@ -13,7 +13,7 @@ export const appStyles = style({
   justifyContent: "space-evenly",
   maxWidth: "90%",
   margin: "0 auto",
-  height: "100vh",
+  height: "auto",
 });
 
 export const titleStyles = style({

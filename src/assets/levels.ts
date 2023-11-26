@@ -2,9 +2,9 @@ export const levelOne = [
 "What does my phone wallpaper tell you about me?",
 "Do I seem like more of a creative or analytical type? Explain.",
 "ACTION CARD: Give a compliment to the person on your right",
-"Based on what you know of me, what job or career path do you think I'd excel in the most?"
+"Based on what you know of me, what job or career path do you think I'd excel in the most?",
 "Am I the type of person who enjoys cooking at home, ordering takeout, or dining at restaurants?",
-"ACTION CARD: Give a high-five to the person across you."
+"ACTION CARD: Give a high-five to the person across you.",
 "Do you think I'm more inclined to save money for the future or spend it on immediate pleasures?",
 "Do you think I fall in love easily? Why or why not?",
 "ACTION CARD: Ask someone who seems most similar to you share something they are looking forward to.",
@@ -20,8 +20,8 @@ export const levelOne = [
 "What is one game you would recommend for people to play?",
 "ACTION CARD: Together with two other people in the group make a TikTok/Instagram Reel together. Post and tag the restaurant!",
 "What kind of sports do you imagine I'd be most interested in watching?",
-"What compliment do you think I hear the most?"
-"Do you think I was popular in school? Explain."
+"What compliment do you think I hear the most?",
+"Do you think I was popular in school? Explain.",
 "ACTION CARD: Choose two people (1 male and 1 female) to move to the karaoke room to play a total of 3 rounds of Pairs Edition. Resume the game when they come back.",
 "What is the worst assumption someone made about you?"
 ];
@@ -103,7 +103,8 @@ export const levelPairs = [
 "What is a lesson you will take away from our conversation?",
 "Who do I remind you of?",
 "What do you think I should know about myself that perhaps I'm unaware of?",
-"How does one earn your vulnerability? Have I earned it? How can I earn more?",
+"How does one earn your vulnerability? Have I earned it? How can I earn more?"
+]
 
 
 export const levelThree = [
@@ -161,5 +162,5 @@ export const levelThree = [
 ];
 
 export const finalLevel = [
-"FINAL CARD: Take a group selfie and tag the restaurant! Thank you for playing!,
+"FINAL CARD: Take a group selfie and tag the restaurant! Thank you for playing!"
 ]
