@@ -11,9 +11,9 @@ export const appStyles = style({
   fontWeight: 800,
   flexWrap: "wrap",
   justifyContent: "space-evenly",
-  maxWidth: 1080,
+  maxWidth: "90%",
   margin: "0 auto",
-  height: "100%",
+  height: "auto",
 });
 
 export const titleStyles = style({

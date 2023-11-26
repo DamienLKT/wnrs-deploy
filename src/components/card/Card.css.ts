@@ -17,7 +17,7 @@ export const cardStyles = style({
 export const bigCardStyles = style({
   fontSize: 25,
   width: "100%",
-  height: 300,
+  height: 500,
   margin: "2rem",
   backgroundColor: "white",
   color: primaryAccent,

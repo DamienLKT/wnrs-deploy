@@ -14,8 +14,8 @@ globalStyle("html, body, #root", {
 globalStyle("body", {
   fontFamily: '"Biryani", sans-serif',
   vars: {
-    [primaryAccent]: "#c10016",
-    [primaryAccentMuted]: "#ad0014",
+    [primaryAccent]: "#B4C424",
+    [primaryAccentMuted]: "#A4B221",
   },
 });
 
