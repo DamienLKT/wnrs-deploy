@@ -156,6 +156,7 @@ export const levelThree = [
 "What do you think I fear the most?",
 "What do I need to hear right now?",
 "What's the hardest part about dating you?",
+"How did you get over your first love?",
 "Why do you think we met?",
 ];
 
