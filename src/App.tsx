@@ -127,7 +127,7 @@ function App() {
     <div className={appStyles}>
       <Credits />
       <div className={questionStyles}>
-        <div className={titleStyles}>wnrs</div>
+        <div className={titleStyles}>peridot</div>
         <Settings onLevelsChange={handleLevelsChange} />
         <div className={levelsStyles}>{buttons}</div>
         <Card styleName={bigCardStyles} question={currCard} />
