@@ -7,7 +7,7 @@ export const levelOne = [
 "ACTION CARD: Give a high-five to the person across you.",
 "Do you think I'm more inclined to save money for the future or spend it on immediate pleasures?",
 "Do you think I fall in love easily? Why or why not?",
-"ACTION CARD: Ask someone who seems most similar to you share something they are looking forward to.",
+"ACTION CARD: Split into two teams and debate whether cats or dogs are better.",
 "Do you think I've ever checked an ex's phone for evidence?",
 "Do you think I've ever had my heart broken?",
 "If I were to order a pizza, what toppings do you think I'd choose?",
@@ -22,7 +22,7 @@ export const levelOne = [
 "What kind of sports do you imagine I'd be most interested in watching?",
 "What compliment do you think I hear the most?",
 "Do you think I was popular in school? Explain.",
-"ACTION CARD: Choose two people (1 male and 1 female) to move to the karaoke room to play a total of 2 rounds of Pairs Level. Resume the game when they come back.",
+"ACTION CARD: Choose two people (1 male and 1 female) break away from the group to play a total of 2 rounds of Pairs Level. Resume the game when they come back.",
 "What is the worst assumption someone made about you?"
 ];
 
