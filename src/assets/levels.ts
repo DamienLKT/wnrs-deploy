@@ -23,7 +23,7 @@ export const levelOne = [
 "What compliment do you think I hear the most?",
 "Do you think I was popular in school? Explain.",
 "ACTION CARD: Choose two people (1 male and 1 female) break away from the group to play a total of 2 rounds of Pairs Level. Resume the game when they come back.",
-"What is the worst assumption someone made about you?"
+"What is the worst assumption someone made about you?",
 "ACTION CARD: Come up with a 'Would You Rather' question and ask the group.",
 "Would you rather have the ability to fly or be invisible?",
 "Would you rather always speak your mind or never speak again?",
