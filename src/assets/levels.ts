@@ -22,7 +22,7 @@ export const levelOne = [
 "What kind of sports do you imagine I'd be most interested in watching?",
 "What compliment do you think I hear the most?",
 "Do you think I was popular in school? Explain.",
-"ACTION CARD: Choose two people (1 male and 1 female) to move to the karaoke room to play a total of 3 rounds of Pairs Level. Resume the game when they come back.",
+"ACTION CARD: Choose two people (1 male and 1 female) to move to the karaoke room to play a total of 2 rounds of Pairs Level. Resume the game when they come back.",
 "What is the worst assumption someone made about you?"
 ];
 
@@ -34,7 +34,7 @@ export const levelTwo = [
 "Has a stranger ever changed your life?",
 "What are you currently most grateful for and why?",
 "Dear younger self: __________",
-"ACTION CARD: Choose two people (1 male and 1 female) to move to the karaoke room to play a total of 6 rounds of Pair Level of this game.",
+"ACTION CARD: Choose two people (1 male and 1 female) to move to the karaoke room to play a total of 2 rounds of Pair Level of this game.",
 "What's been your happiest memory this past year?",
 "Who in your life deserves the biggest thank you? Let them know if you can.",
 "What's your favorite part of yourself that isn't physical?",
@@ -46,13 +46,13 @@ export const levelTwo = [
 "Something that brought a smile to my face this week was ___.",
 "What is your most toxic trait that you can admit to?",
 "What question did this year leave you with?",
-"ACTION CARD: Get the males to choose to play a total of 10 rounds of Pairs Level of this game with a female of their choice. Let the oldest start.",
+"ACTION CARD: Get the males to choose to play a total of 4 rounds of Pairs Level of this game with a female of their choice. Let the oldest start.",
 "What have you been taking for granted lately?",
 "When was the last time you felt most yourself?",
 "Have you ever told someone I love you, but didn't mean it? If so, why?",
 "Have you changed your mind about anything recently?",
 "What would you never want to change about yourself?",
-"ACTION CARD: Get the females to choose to play a total of 10 rounds of Pairs Level of this game with a male of their choice. Let the oldest start.",
+"ACTION CARD: Get the females to choose to play a total of 8 rounds of Pairs Level of this game with a male of their choice. Let the oldest start.",
 "Are you lying to yourself about anything?",
 "What's your perspective on how you handle setbacks or failures in life, and how resilient do you think you are?",
 "If you could have it your way: Who would you be with? Where would you be? And what would you be doing?",
@@ -64,7 +64,7 @@ export const levelTwo = [
 "What is the last thing you lied to your mother about?",
 "What title would you give this chapter in your life?",
 "What do you crave more of?",
-"ACTION CARD: Get the females to choose to play a total of 8 rounds of Pairs Level of this game with a male of their choice. Let the youngest start.",
+"ACTION CARD: Get the females to choose to play a total of 4 rounds of Pairs Level of this game with a male of their choice. Let the youngest start.",
 "Is there a feeling you miss?",
 "What has been your earliest recollection of happiness?",
 "What's a relationship deal-breaker for you and why?",
@@ -76,7 +76,7 @@ export const levelTwo = [
 "What are you most afraid of?",
 "What is something that you can talk about for hours?",
 "In order of birth month, take turns to describe what a perfect day in your life would be.",
-"ACTION CARD: Split the group into pairs of your choice (1 male and 1 female) and play a total of 12 rounds of Pair Level of this game.",
+"ACTION CARD: Split the group into pairs of your choice (1 male and 1 female) and play a total of 10 rounds of Pair Level of this game.",
 ];
 
 export const levelPairs = [
