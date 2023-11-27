@@ -13,7 +13,7 @@ export const levelOne = [
 "If I were to order a pizza, what toppings do you think I'd choose?",
 "Have everyone share where they would they want to go if they could travel anywhere, regardless of the cost.",
 "ACTION CARD: Give a one-liner dating profile bio to the person on your right.",
-"What's your guess about my favorite type of music and artist?",
+"Would you rather live in a world without music or without books?",
 "Have the group share one movie or show they recommend as a must-watch.",
 "ACTION CARD: Thumb wrestle with the person on your left.",
 "Based on how I look, what kind of musical instrument should I play?",
@@ -24,6 +24,15 @@ export const levelOne = [
 "Do you think I was popular in school? Explain.",
 "ACTION CARD: Choose two people (1 male and 1 female) break away from the group to play a total of 2 rounds of Pairs Level. Resume the game when they come back.",
 "What is the worst assumption someone made about you?"
+"ACTION CARD: Come up with a 'Would You Rather' question and ask the group.",
+"Would you rather have the ability to fly or be invisible?",
+"Would you rather always speak your mind or never speak again?",
+"Would you rather travel 100 years into the past or 100 years into the future?",
+"Would you rather always be 10 minutes late or 20 minutes early?",
+"Would you rather have the ability to time travel but not control where you end up or have the ability to teleport but only to places you've already been?",
+"Would you rather be able to talk to your past self or your future self?",
+"Would you rather have a personal chef or a personal masseuse?",
+"Would you rather be a famous actor or a successful entrepreneur?",
 ];
 
 export const levelTwo = [
